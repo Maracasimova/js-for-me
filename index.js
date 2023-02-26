@@ -53,7 +53,4 @@ let discount = 0;
 
 let result = 0;
 
-if (payment >= 100 && payment <= 1000) {
-  discount = 
-}
 
