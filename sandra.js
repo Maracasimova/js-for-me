@@ -172,33 +172,33 @@
 // - "Образование — это то, что остаётся после того, как забывается всё выученное в школе."
 
 // let uInput = prompt ('Enter text here')
-let uInput =
-  "Есть только две бесконечные вещи: Вселенная и глупость. Хотя насчет Вселенной я не уверен.";
-function countVowels(inputString) {
-  let counter = 0;
+// let uInput =
+//   "Есть только две бесконечные вещи: Вселенная и глупость. Хотя насчет Вселенной я не уверен.";
+// function countVowels(inputString) {
+//   let counter = 0;
 
-  for (let i = 0; i < inputString.length; i++) {
-    switch (inputString[i].toLowerCase()) {
-      case "а":
-      case "о":
-      case "у":
-      case "ы":
-      case "э":
-      case "я":
-      case "ё":
-      case "ю":
-      case "и":
-      case "е": //The vowels in English are a, e, i, o, u, and sometimes y
-        counter++;
-        break;
+//   for (let i = 0; i < inputString.length; i++) {
+//     switch (inputString[i].toLowerCase()) {
+//       case "а":
+//       case "о":
+//       case "у":
+//       case "ы":
+//       case "э":
+//       case "я":
+//       case "ё":
+//       case "ю":
+//       case "и":
+//       case "е": //The vowels in English are a, e, i, o, u, and sometimes y
+//         counter++;
+//         break;
 
-      default:
-        break;
-    }
-  }
-  return counter;
-}
-console.log(countVowels(uInput));
+//       default:
+//         break;
+//     }
+//   }
+//   return counter;
+// }
+// console.log(countVowels(uInput));
 
 // if (vowelsLetters == uInputSplit) {
 
