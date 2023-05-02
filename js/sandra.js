@@ -165,7 +165,7 @@
 // ====================================================================
 
 
-// 6. 
+// 6.
 // Посчитай и выведи результат, сколько гласных букв в строке:
 // - "Есть только две бесконечные вещи: Вселенная и глупость. Хотя насчет Вселенной я не уверен."
 // - "Теория — это когда все известно, но ничего не работает. Практика — это когда все работает, но никто не знает почему. Мы же объединяем теорию и практику: ничего не работает… и никто не знает почему!"
@@ -202,7 +202,7 @@
 
 // if (vowelsLetters == uInputSplit) {
 
-//     let filtered = ; 
+//     let filtered = ;
 
 // }
 
@@ -212,8 +212,75 @@
 // ====================================================================
 
 
-// 7. 
+// 7.
 // Попроси пользователя ввести дату рождения в формате: дд.мм.гггг
 // - Выведи ответ пользователю с информацией:
 // был ли этот год високосным и через сколько лет наступит его год по Восточному календарюю.
 // Если пользователь указал дату в неверном формате, попроси его ввести ее снова, если он нажал cancel, то не запрашивай.
+
+// Выносим варианты в массив
+// const redFruits = ["apple", "strawberry", "cherry", "cranberries"];
+// const fruit = "cherry";
+// // Проверяем наличие элемента
+// const hasFruit = redFruits.includes(fruit);
+
+// if (hasFruit) {
+//   console.log(`${fruit} is a red fruit!`);
+// }
+
+// let fruits = ["Яблоко", "Апельсин", "Груша"];
+
+//  fruits.pop(); // удаляем "Груша" и выводим его
+
+// console.log(fruits); // Яблоко, Апельсин
+
+// const numbers = [];
+
+// numbers.push(1);
+// console.log(numbers); // [1]
+
+// numbers.push(2);
+// console.log(numbers); // [1, 2]
+
+// numbers.push(3);
+// console.log(numbers); // [1, 2, 3]
+
+// numbers.push(4);
+// console.log(numbers); // [1, 2, 3, 4]
+
+// numbers.push(5);
+// console.log(numbers); // [1, 2, 3, 4, 5]
+
+// let fruits = ["Яблоки", "Груша", "Апельсин"];
+
+// // добавляем новое значение в "копию"
+// let shoppingCart = fruits;
+// shoppingCart.push("Банан");
+
+// // что в fruits?
+// console.log(fruits);
+
+
+// const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
+// console.log(clients.slice(1, 2)); // ["Ajax", "Poly"]
+
+// const colors = ["red", "green", "blue"];
+
+// colors.splice(2, 0, "purple");
+// console.log(colors); // ["red", "green", "purple", "blue"]
+
+function bar() {
+  console.log("bar");
+}
+
+function baz() {
+  console.log("baz");
+}
+
+function foo() {
+  console.log("foo");
+  bar();
+  baz();
+}
+
+foo();
